@@ -1,0 +1,106 @@
+button{
+    width: 100px;
+    height:50px;
+    border-radius: 20000px;
+    padding: 50px;
+    background-color: chartreuse;
+    
+}
+
+.buttonCont {
+    display: flex;
+    justify-content: end;
+}
+
+body{
+    background-color: green;
+}
+
+.wiggle{
+    animation:wiggle 1s linear infinite;
+}
+@keyframes wiggle {
+    0%,7%{
+        transform: rotateZ(0);
+    }
+    15%{
+        transform: rotateZ(-15deg)
+    }
+    20%{
+        transform: rotateZ(10deg);
+    }
+    25%{
+        transform: rotateZ(-10deg);
+    }
+    30%{
+        transform: rotateZ(60deg)
+    }
+    35%{
+        transform: rotateZ(-4deg);
+    }
+    40%,100%{  
+        transform: rotateZ(0)
+    }
+}
+
+li{
+    list-style-type: none;
+    font-size: 30px;
+    color: aquamarine;
+}
+
+.yu{
+    font-size: 60px;
+}
+
+.vass{
+    width: 1000px;
+}
+
+.vasss{
+    width:1000px ;
+}
+
+.yu:hover{
+    color: aqua;
+}
+
+.kl{
+    color:aqua;
+}
+
+.bfr{
+    background-color: blanchedalmond;
+}
+
+.wiggle{
+    animation:wiggle 1s linear infinite;
+}
+
+@keyframes wiggle {
+    0%,7%{
+        transform: rotateZ(0);
+    }
+    15%{
+        transform: rotateZ(-15deg)
+    }
+    20%{
+        transform: rotateZ(10deg);
+    }
+    25%{
+        transform: rotateZ(-10deg);
+    }
+    30%{
+        transform: rotateZ(60deg)
+    }
+    35%{
+        transform: rotateZ(-4deg);
+    }
+    40%,100%{  
+        transform: rotateZ(0)
+    }
+} 
+.buttonCont {
+    display: flex;
+    align-items: flex-start;
+}
